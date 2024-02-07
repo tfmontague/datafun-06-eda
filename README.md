@@ -4,6 +4,22 @@
 
 This repository contains a Jupyter Notebook for exploratory data analysis (EDA) of the Planets dataset. The analysis includes a series of steps to visualize, understand, and prepare the data for further statistical analysis or machine learning modeling.
 
+## Dataset Description
+
+This EDA will analyze the "Planets" dataset from the Seaborn library. It contains information about planets discovered around other stars, known as exoplanets, through the Kepler space telescope and other methods. The dataset can be accessed via Github: [Planets Dataset](https://github.com/mwaskom/seaborn-data/blob/master/planets.csv)
+
+The table below provides an overview of columns and descriptions found in the Planets dataset:
+
+| Column Name     | Description                                                                                     |
+|-----------------|-------------------------------------------------------------------------------------------------|
+| `method`        | The method by which the planet was discovered. Examples include radial velocity, transit, imaging, etc. |
+| `number`        | The number of planets discovered in the system.                                                |
+| `orbital_period`| The time the planet takes to complete one orbit around its star, typically measured in days.   |
+| `mass`          | The mass of the planet, usually in Jupiter masses.                                              |
+| `distance`      | The distance from the planet to Earth, measured in parsecs.                                     |
+| `year`          | The year in which the planet was discovered.                                                    |
+
+
 ## Project Structure & Deliverables
 
 - `README.md`: Provides an overview of the project and instructions for setting up the environment and running the notebook.

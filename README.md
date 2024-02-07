@@ -8,6 +8,7 @@ This repository contains a Jupyter Notebook for exploratory data analysis (EDA) 
 
 - `README.md`: Provides an overview of the project and instructions for setting up the environment and running the notebook.
 - `requirements.txt`: Lists all the Python packages required for the project.
+- `tmontague_eda.ipynb`: The Jupyter Notebook containing the EDA for the Planets dataset.
 
 ## Environment Setup and How to Install and Run the Project
 
@@ -29,9 +30,19 @@ py -m pip freeze > requirements.txt
 - Install dependencies
 
 ```console
-py -m pip install jupyterlab numpy pandas matplotlib seaborn scipy
+py -m pip install jupyterlab numpy pandas matplotlib seaborn scipy pyarrow
 ```
 
 - Add a useful .gitignore to the root project folder.
 
+- Start Jupyter: Do both methods. Both methods must be available.
+    - Method 1: Start Jupyter in VS Code: Open project folder in VS code, Install Jupyter extension in VS code (if not already installed), Open VS Code Terminal window, and run `jupyter lab` in integrated terminal.
+    - Method 2: Start Jupyter in Native Terminal (without VS Code): Open machine terminal in project folder, Start Jupyter Notebook server by running: `jupyter lab`; Default brower will open to Jupyter Notebook interface.
+
+
+## Project Start
+
+1. Create the Notebook: In the VS Code Explorer, create a new file i.e., `tmontague_eda.ipynb`. Ensure it has a .ipynb extension.
+2. Verify your new notebook is open for editing. If needed, view the project files in VS Code Explorer and double-click the notebook file to open it for editing.
+3. Add a Markdown cell at the top of your notebook with the introduction (include the title, author, date and the purpose of the project).
 
